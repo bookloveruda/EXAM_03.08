@@ -1,0 +1,88 @@
+
+.join .inner-join{
+  width: 100%;
+  height: auto;
+  padding: 150px 0;
+}
+.join .inner-join .join-con{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-color: rgb(194, 189, 189); */
+  box-shadow: 0 0 10px rgb(201, 201, 201);
+  box-sizing: border-box;
+}
+.join .inner-join .join-con form table{
+  width: 100%;
+  height:auto;
+  line-height: 80px;
+  text-align: center;
+  /* text-align: left; */
+  border: 0px solid #fff;
+}
+.join .inner-join .join-con form table tr>th{
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 150px;
+  /* text-align: left; */
+  /* padding: 0 80px; */
+}
+.join .inner-join .join-con form table .li6{
+  flex: 0 1 40%;
+  border: 0;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 70px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.join .inner-join .join-con form table .li6:hover{
+  border: 1px solid #000;
+  background-color: #fff ;
+  color: #000;
+}
+.join .inner-join .join-con form table .li1{
+  /* flex: 0 1 10%; */
+  /* background-color: #f0f ; */
+  font-size: 1.2rem;
+}
+.join .inner-join .join-con form table .li2{
+  /* flex: 0 1 90%; */
+  /* background-color: #0f0 ; */
+  font-size: 1.2rem;
+}
+.join .inner-join .join-con form table tr:nth-child(2) td:nth-child(2) input{
+  width: 90%;
+}
+.join .inner-join .join-con form table tr:nth-child(3) td:nth-child(2) input{
+  width: 90%;
+}
+.join .inner-join .join-con form table tr:nth-child(4) td:nth-child(2) select{
+  width: 27%;
+}
+.join .inner-join .join-con form table tr:nth-child(4) td:nth-child(2) input{
+  width: 27%;
+}
+.join .inner-join .join-con form table tr:nth-child(5) td input{
+  width: 20%;
+}
+/* .join .inner-join .join-con form table tr:nth-child(6) td input{
+  width: 30%;
+} */
+
+@media only screen and (max-width:768px) {
+  .join .inner-join .join-con{
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .join .inner-join .join-con{
+    width: 100%;
+    max-width: 500px;
+  }
+}

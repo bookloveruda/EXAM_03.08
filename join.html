@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>join</title>
+  <link rel="stylesheet" href="css/join.css">
+</head>
+<body>
+  <div id="wrap">
+    <div class="header">
+      <div class="inner-header">
+        <div class="nav">
+          <h1 class="logo"><a href="index.html"><img src="img/logo_wes2.jpg" alt="logo"></a></h1>
+          <div class="gnb">
+            <ul>
+              <li>
+                <a href="#">MENU1</a>
+                <ul class="sub">
+                  <li><a href="#">sub1</a></li>
+                  <li><a href="#">sub2</a></li>
+                  <li><a href="#">sub3</a></li>
+                  <li><a href="#">sub4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">MENU2</a></li>
+              <li><a href="#">MENU3</a></li>
+              <li><a href="#">MENU4</a></li>
+              <li><a href="join.html">JOIN</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="join">
+      <div class="inner-join">
+          <div class="join-con">
+            <form method="GET">
+              <table>
+                  <tr>
+                      <th colspan="2">Sign Up</th>
+                  </tr>
+                  <tr>
+                      <td class="li1"><label for="userName">NAME</label></td>
+                      <td class="li2"><input type="text" name="userName" id="userName" placeholder="Input Name"></td>
+                  </tr>
+                  <tr>
+                      <td class="li1"><label for="userEmail">E-MAIL</label></td>
+                      <td class="li2"><input type="email" name="userEmail" id="userEmail" placeholder="Input Email"></td>
+                  </tr>
+                  <tr>
+                    <td class="li1"><label for="phone">PHONE</label></td>
+                    <td class="li2">
+                        <select name="phone" class="phone">
+                            <option value=""></option>
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="012">012</option>
+                        </select>  
+                        - <input type="text" name="phone" id="phone" size="4" maxlength="4">
+                        - <input type="text" name="phone" id="phone" size="4" maxlength="4">
+                    </td>
+                </tr>
+                  <tr>
+                      <td class="li1"><label for="ver">VERIFICATION</label></td>
+                      <td class="li2">
+                          <input type="radio" name="ver" id="ver1" value="yes" checked>YES
+                          <input type="radio" name="ver" id="ver2" value="no">NO
+                      </td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">
+                        <input type="reset" value="RESET" class="li6">
+                        <input type="submit" value="SIGN UP" class="li6">
+                      </td>
+                  </tr>
+              </table>
+            </form>
+          
+          </div>
+      </div>
+  </div>
+
+
+
+
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="fcon">ⓒWes Anderson , movie director</div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>

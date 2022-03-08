@@ -1,0 +1,120 @@
+
+.container .inner-container .index {
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner-container .index .sections {
+  flex: 0 1 1280px;
+  /* background-color: #ff0; */
+}
+
+.container .inner-container .index .sections .section.sec1 {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.container .inner-container .index .sections .section.sec1 .sec-con {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+}
+
+
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery ul {
+  width: 100%;
+  height: inherit;
+}
+
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery ul li {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery ul li:nth-child(5) {
+  animation-name: fadeGallery;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeGallery{
+  0%{
+    background: url(../../img/0.jpg) no-repeat 50%/cover;
+  }
+  25%{
+    background: url(../../img/1.jpg) no-repeat 50%/cover;
+  }
+  50%{
+    background: url(../../img/2.jpg) no-repeat 50%/cover;
+  }
+  75%{
+    background: url(../../img/3.jpg) no-repeat 50%/cover;
+  }
+  100%{
+    background: url(../../img/4.jpg) no-repeat 50%/cover;
+  }
+}
+
+.container .inner-container .index .sections .section.sec2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner-container .index .sections .section.sec2 .sec-con {
+  flex: 0 1 1000px;
+  height: auto;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+
+.container .inner-container .index .sections .section.sec2 .sec-con>ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container .inner-container .index .sections .section.sec2 .sec-con>ul>li {
+  flex: 0 1 31.3%;
+  padding: 1%;
+}
+
+.container .inner-container .index .sections .section.sec2 .sec-con>ul>li img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (max-width:768px) {
+
+  .container .inner-container .index .sections .section.sec1 .sec-con {
+    height: 600px;
+  }
+
+  .container .inner-container .index .sections .section.sec2 .sec-con>ul>li {
+    flex: 0 1 48%;
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width:640px) {
+  .container .inner-container .index .sections .section.sec1 .sec-con {
+    height: 600px;
+  }
+
+  .container .inner-container .index .sections .section.sec2 .sec-con>ul>li {
+    flex: 0 1 98%;
+    padding: 1% 20px;
+  }
+}
